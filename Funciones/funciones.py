@@ -1,11 +1,11 @@
-# def Saludar(nombre, edad):
-#     return "Hola {} de {} años Bienvenido".format(nombre, edad)
+def Saludar(nombre, edad):
+    return "Hola {} de {} años Bienvenido".format(nombre, edad)
 
 # print("Escribe tu nombre: ")
 # nombre = input()
 # edad = input("Escribe tu edad: ")
 
-# print(Saludar(nombre, edad))
+print(Saludar("Eduardo", 29))
 
 def mayor_a_cinco(elemento):
   return elemento > 5
